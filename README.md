@@ -4,7 +4,7 @@ update to my last snap of the xios blockchain
 
 # Ubuntu
 
-<pre>myxiosfolder="/root/.XIOS1" # PLEASE MODIFY TO YOUR .XIOS PATH
+<pre>myxiosfolder="/root/.XIOS1" <b># PLEASE MODIFY TO YOUR .XIOS PATH</b>
 
 # Stop your node
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf stop
