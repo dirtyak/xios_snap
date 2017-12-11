@@ -1,6 +1,6 @@
 # xios_snap
 
-update to my last snap of the xios blockchain
+last snapshot of my xios blockchain files
 
 # Ubuntu
 
