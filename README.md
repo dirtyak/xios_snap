@@ -11,10 +11,10 @@ Edit the first line and copy paste
 # Stop your node
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf stop
 # Remove your current database
-rm -r $myxiosconf/database
-rm -r $myxiosconf/txleveldb
-rm $myxiosconf/banlist.dat
-rm $myxiosconf/peers.dat
+rm -r $myxiosfolder/database
+rm -r $myxiosfolder/txleveldb
+rm $myxiosfolder/banlist.dat
+rm $myxiosfolder/peers.dat
 # Get the last blockchain snap
 git clone https://github.com/dirtyak/xios_snap
 # Put this db in your folder
