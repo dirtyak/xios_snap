@@ -9,6 +9,7 @@ Edit the first line and copy paste
 <pre>myxiosfolder="/root/.XIOS1" <b># EDIT TO YOUR .XIOS CONF PATH</b>
 
 # Stop your node
+cd
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf stop
 # Remove your current database
 rm -r $myxiosfolder/database
