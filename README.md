@@ -26,10 +26,10 @@ cp -r xios_snap/* $myxiosfolder/.
 
 Open explorer and go to <b>'%APPDATA%/XIOS'</b>
 
-Remove <b>database</b> & <b>txleveldb</b> folders
+Remove <u>database</u> & <u>txleveldb</u> folders
 
 Download the blockchain files : https://github.com/dirtyak/xios_snap/archive/master.zip
 
-Unzip it into <b>'%APPDATA%/XIOS'</b> and replace files
+Unzip it into <u>%APPDATA%/XIOS</u> and replace files
 
 Restart Wallet
