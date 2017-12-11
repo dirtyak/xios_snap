@@ -4,6 +4,8 @@ update to my last snap of the xios blockchain
 
 # Ubuntu
 
+Edit the first line and copy paste
+
 <pre>myxiosfolder="/root/.XIOS1" <b># EDIT TO YOUR .XIOS CONF PATH</b>
 
 # Stop your node
@@ -22,12 +24,12 @@ cp -r xios_snap/* $myxiosfolder/.
 
 # Windows 
 
-Open explorer and go to <b>%APPDATA%/XIOS</b>
+Open explorer and go to <b>'%APPDATA%/XIOS'</b>
 
 Remove <b>database</b> & <b>txleveldb</b> folders
 
 Download the blockchain files : https://github.com/dirtyak/xios_snap/archive/master.zip
 
-Unzip it into <b>%APPDATA%/XIOS</b> and replace files
+Unzip it into <b>'%APPDATA%/XIOS'</b> and replace files
 
 Restart Wallet
