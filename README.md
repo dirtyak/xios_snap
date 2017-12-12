@@ -36,6 +36,8 @@ Open explorer and go to <b>%APPDATA%/XIOS</b> (default path)
 
 Remove <b>database</b> & <b>txleveldb</b> folders
 
+Run XIOS one time to populate files and close it (make sure it's not running in background)
+
 Download the blockchain files : https://github.com/dirtyak/xios_snap/archive/master.zip
 
 Unzip it into <b>%APPDATA%/XIOS</b> and replace files
