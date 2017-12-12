@@ -14,12 +14,19 @@ Edit the first line and copy paste in console <b>as root</b> :
 
 # Stop your node
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf stop
-# Remove your current database
+# Remove your current files (except backups/ wallet.dat XIOS.conf & masternode.conf)
 rm -r $myxiosfolder/database
 rm -r $myxiosfolder/txleveldb
+rm -r $myxiosfolder/smsgDB
+rm -r $myxiosfolder/smsgStore
 rm $myxiosfolder/banlist.dat
-rm $myxiosfolder/peers.dat
 rm $myxiosfolder/blk0001.dat
+rm $myxiosfolder/db.log
+rm $myxiosfolder/debug.log
+rm $myxiosfolder/mncache.dat
+rm $myxiosfolder/peers.dat
+rm $myxiosfolder/smsg.ini
+rm $myxiosfolder/XIOSd.pid
 # Get the last blockchain snap
 cd
 git clone https://github.com/dirtyak/xios_snap
