@@ -32,7 +32,7 @@ cp -r xios_snap/* $myxiosfolder/.
 
 Close your XIOS wallet
 
-Open explorer and go to <b>%APPDATA%/XIOS</b>
+Open explorer and go to <b>%APPDATA%/XIOS</b> (default path)
 
 Remove <b>database</b> & <b>txleveldb</b> folders
 
