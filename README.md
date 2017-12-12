@@ -10,7 +10,7 @@ This script keeps your wallet.dat safe
 
 Edit the first line and copy paste
 
-<pre>myxiosfolder="<b>/root/.XIOS1</b>" # <b>TYPE YOUR OWN .XIOS CONF PATH</b>
+<pre>myxiosfolder="<b>/root/.XIOS1</b>" # <b>CHANGE TO CORRECT .XIOS PATH</b>
 
 # Stop your node
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf stop
