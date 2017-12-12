@@ -19,6 +19,7 @@ rm -r $myxiosfolder/database
 rm -r $myxiosfolder/txleveldb
 rm $myxiosfolder/banlist.dat
 rm $myxiosfolder/peers.dat
+rm $myxiosfolder/blk0001.dat
 # Get the last blockchain snap
 cd
 git clone https://github.com/dirtyak/xios_snap
