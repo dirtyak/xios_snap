@@ -39,9 +39,9 @@ cp -r xios_snap/* $myxiosfolder/.
 
 Close your XIOS wallet
 
-Open explorer and go to <b>%APPDATA%/XIOS</b> (default path)
+Open explorer and go to <pre>%APPDATA%/XIOS</pre> (default path)
 
-Remove <b>database</b> & <b>txleveldb</b> folders
+Remove all files <b>except backups, wallet.dat, XIOS.conf and masternode.conf</b>
 
 Run XIOS one time to populate files and close it (make sure it's not running in background)
 
