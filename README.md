@@ -2,7 +2,7 @@
 
 last snapshot of my xios blockchain files
 
-# Ubuntu
+# Ubuntu (tested it works)
 
 Use this script if you are stuck on the wrong blockchain
 
@@ -28,7 +28,7 @@ cp -r xios_snap/* $myxiosfolder/.
 # Restart the node with new files
 /root/xios/src/XIOSd -datadir=$myxiosfolder -config=$myxiosfolder/XIOS.conf -daemon</pre>
 
-# Windows 
+# Windows (not working properly)
 
 Close your XIOS wallet
 
