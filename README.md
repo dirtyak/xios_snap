@@ -8,7 +8,7 @@ Use this script if you are stuck on the wrong blockchain
 
 This script keeps your wallet.dat safe
 
-Edit the first line and copy paste
+Edit the first line and copy paste in console <b>as root</b> :
 
 <pre>myxiosfolder="<b>/root/.XIOS1</b>" # <b>CHANGE TO CORRECT .XIOS PATH</b>
 
