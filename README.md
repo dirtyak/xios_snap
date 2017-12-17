@@ -3,7 +3,7 @@ last snapshot of my xios blockchain files
 
 # Ubuntu procedure
 
-There is a script to update your XIOS blockchain files
+This is a script to update your XIOS blockchain files
 
 - Make sure to set XIOSPATH and XIOSdPATH to correct path
 
