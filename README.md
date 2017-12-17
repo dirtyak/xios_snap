@@ -3,10 +3,12 @@ last snapshot of my xios blockchain files
 
 # Ubuntu procedure
 
+Make sure to set XIOSPATH and XIOSdPATH to correct path, then copy/paste to terminal
+
 <pre>
-# EDIT TO YOUR CORRECT PATH
+<b># EDIT TO YOUR CORRECT PATH
 XIOSPATH="/root/.XIOS"
-XIOSdPATH="/root/xios/src/XIOSd"
+XIOSdPATH="/root/xios/src/XIOSd"</b>
 
 # Stop XIOSd
 $XIOSdPATH -datadir=/root/$FOLDER -config=/root/$FOLDER/XIOS.conf stop
