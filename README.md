@@ -35,8 +35,8 @@ $XIOSdPATH -datadir=$XIOSPATH -config=$XIOSPATH/XIOS.conf start
 # Windows procedure
 
 - Close the Wallet
-- go to your config files path <pre>%APPDATA%/XIOS</pre> (default)
-- Remove all files except these files :
+- go to your config files path <pre>%APPDATA%/XIOS</pre>
+- Remove all files <b>EXCEPT</b> :
 <pre>
 Backups (folder)
 wallet.dat
@@ -44,6 +44,6 @@ XIOS.conf
 masternode.conf
 </pre>
 - Restart the wallet one time to populate files and close it
-- Download the blockchain snapshot :
-- Copy all files to <pre>%APPDATA%/XIOS</pre>
+- Download the blockchain snapshot : https://github.com/dirtyak/xios_snap/archive/master.zip
+- Unzip and copy all files to <pre>%APPDATA%/XIOS</pre>
 - Restart the wallet
