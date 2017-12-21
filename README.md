@@ -35,7 +35,7 @@ cp xios_snap/peers.dat $XIOSPATH/.
 cp xios_snap/blk0001.dat $XIOSPATH/.
 
 # Restart XIOSd
-$XIOSdPATH -datadir=$XIOSPATH -config=$XIOSPATH/XIOS.conf start
+$XIOSdPATH -datadir=$XIOSPATH -config=$XIOSPATH/XIOS.conf -daemon
 </pre>
 
 # Windows procedure
